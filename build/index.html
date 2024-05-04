@@ -15,12 +15,69 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css" />
 
     <title>Frontend Mentor | Social links profile</title>
   </head>
-  <body>
-    Jessica Randall London, United Kingdom "Front-end developer and avid
-    reader." GitHub Frontend Mentor LinkedIn Twitter Instagram
+  <body class="bg-off-black font-inter">
+    <main class="flex items-center justify-center h-screen">
+      <!-- Social links card -->
+      <div
+        class="p-6 sm:p-8 text-center bg-dark-grey rounded-xl w-[330px] sm:w-[380px]"
+      >
+        <!-- Img -->
+        <div>
+          <img
+            class="mx-auto rounded-[50%] h-[90px] mb-6"
+            src="./images/avatar-jessica.jpeg"
+            alt="User Image"
+          />
+        </div>
+        <!-- end img -->
+        <!-- Text -->
+        <div>
+          <h1 class="text-white text-2xl font-semibold mb-[6px]">
+            Jessica Randall
+          </h1>
+          <p class="text-green text-sm font-semibold mb-6">
+            London, United Kingdom
+          </p>
+          <p class="text-white mb-6 text-sm">
+            "Front-end developer and avid reader."
+          </p>
+        </div>
+        <!-- End text -->
+        <!-- Links -->
+        <div>
+          <ul>
+            <li
+              class="mb-4 text-white bg-grey rounded-lg py-3 text-sm font-bold"
+            >
+              GitHub
+            </li>
+            <li
+              class="mb-4 text-white bg-grey rounded-lg py-3 text-sm font-bold"
+            >
+              Frontend Mentor
+            </li>
+            <li
+              class="mb-4 text-white bg-grey rounded-lg py-3 text-sm font-bold"
+            >
+              LinkedIn
+            </li>
+            <li
+              class="mb-4 text-white bg-grey rounded-lg py-3 text-sm font-bold"
+            >
+              Twitter
+            </li>
+            <li class="text-white bg-grey rounded-lg py-3 text-sm font-bold">
+              Instagram
+            </li>
+          </ul>
+        </div>
+        <!-- End links -->
+      </div>
+      <!-- end card -->
+    </main>
   </body>
 </html>
